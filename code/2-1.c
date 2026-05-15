@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 enum State { IDLE, RUNNING, PAUSED, DONE};
-
+ 
 void print_state(enum State s){
     switch(s){
         case IDLE:
