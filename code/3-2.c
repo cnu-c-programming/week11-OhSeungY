@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+ 
 int cmp_asc(const void *a, const void *b){
     return *(const int*)a - *(const int*)b;
 }
